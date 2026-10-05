@@ -1,0 +1,40 @@
+name: Acquisition inquiry
+description: Inquire about acquiring the domain inferencegovernance.si
+title: "[Inquiry] inferencegovernance.si"
+labels: ["inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to inquire about acquiring **inferencegovernance.si**.
+
+        Written inquiries only — no calls. Nothing here is a binding offer to
+        sell; terms are negotiated directly.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization
+      description: Company, fund, or individual making the inquiry.
+    validations:
+      required: true
+  - type: input
+    id: intended_use
+    attributes:
+      label: Intended use
+      description: What you would use the domain for.
+    validations:
+      required: true
+  - type: input
+    id: offer
+    attributes:
+      label: Offer (optional)
+      description: A figure or range, if you have one in mind.
+    validations:
+      required: false
+  - type: input
+    id: contact
+    attributes:
+      label: How to reach you
+      description: An e-mail address or other private channel for a reply.
+    validations:
+      required: true

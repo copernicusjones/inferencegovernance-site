@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://inferencegovernance.si/sitemap.xml
+Sitemap: https://copernicusjones.github.io/inferencegovernance-site/sitemap.xml
