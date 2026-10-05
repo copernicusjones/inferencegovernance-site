@@ -10,6 +10,10 @@ body:
 
         Written inquiries only — no calls. Nothing here is a binding offer to
         sell; terms are negotiated directly.
+
+        Note: this issue is public. State your intended use and organization,
+        but do not post confidential terms or a private phone number. The
+        holder will reply through your GitHub account.
   - type: input
     id: organization
     attributes:
